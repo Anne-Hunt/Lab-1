@@ -1,0 +1,131 @@
+:root {
+    --color-dark: #061130;
+    --color-blue: #1C4BC4;
+    --color-light: #F4F6F8;
+    --color-yellow: #FAFD61;
+    --font-color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: unset;
+}
+
+header {
+    background-color: var(--color-dark);
+    color: white;
+    display: flex;
+}
+
+button {
+    padding: 15px;
+}
+
+main {
+    background-color: var(--color-dark);
+    color: white;
+    padding: 40px 40px 60px 60px;
+}
+
+footer {
+    background-color: white;
+}
+
+#services {
+    color: var(--color-yellow);
+}
+
+#tagline {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
+
+#chat {
+    background-color: var(--color-blue);
+    border-radius: 8px;
+    border: none;
+}
+
+#idea {
+    margin-bottom: 0;
+}
+
+.top-nav {
+    text-decoration: none;
+    color: white;
+}
+
+.text-desc {
+    line-height: 2em;
+}
+
+/* utilities */
+
+.column {
+    flex-direction: column;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.justify-spcbtwn {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-right {
+    align-content: right;
+}
+
+.m0 {
+    margin: auto;
+}
+
+.m2 {
+    margin: 10px;
+}
+
+.m3 {
+    margin: 20px;
+}
+
+.m4 {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.margin-left {
+    margin-left: 60px;
+}
+
+.w1 {
+    width: 100%;
+}
+
+.w3 {
+    width: 40%;
+}
+
+.w4 {
+    width: 70%;
+}
+
+.p1 {
+    padding: 10px;
+}
+
+.p2 {
+    padding: 20px;
+}
+
+.p3 {
+    padding: 30px;
+}
